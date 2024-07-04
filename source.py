@@ -16,7 +16,7 @@ from datetime import datetime
 #    "ms_token", None
 #)  # set your own ms_token, think it might need to have visited a profile
 #database_url = "postgresql://postgres:admin@localhost:5432/dbtiktok"
-database_url = "postgresql://fbs:yah7WUy1Oi8G@172.32.253.129:5432/fbs"
+database_url = "postgresql://fbs:yah7WUy1Oi8G@192.168.11.202:5432/fbs"
 engine = create_engine(database_url)
 
 ms_token = "AySjOsUhnRUCms09JiJ47wIqlss6EXPeWjdz2otVANAWFCf52sAiJssicwKW4hFt3gI6XSYVe-bdh73KNszJJMYQBT-QOq_7TFMgWFnJM6inN6ATgMQ5"
